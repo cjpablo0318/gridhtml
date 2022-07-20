@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.grid-container{
+display: grid;
+max-width: 900px;
+height: 600px;
+background-color: antiquewhite;
+margin: 100px auto;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(4,1fr);
+
+
+
+
+}
+.Header {
+  background-color: #99cc00;
+  grid-column: 1/5;
+}
+.Nav{
+  background-color: #f5f5dc;
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+.Article{
+  background-color:rgb(221, 231, 164);
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+.Aside{
+  background-color: #f5f5dc;
+  grid-row: 2/4;
+}
+.Footer{
+  background-color:  #99cc00;
+  grid-column: 1/5;
+}
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="Header">Header</div>
+  <div class="Nav">Nav</div>
+  <div class="Article">Article</div>  
+  <div class="Aside">Aside</div>
+  <div class="Footer">Footer</div>
+</div>
+
+</body>
+</html>
